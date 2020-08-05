@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30"
+    android:background="@color/torquoise2">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IOT"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_below="@id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="15dp"/>
+    <EditText
+        android:id="@+id/namai"
+        android:layout_below="@id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/alamat"
+        android:layout_below="@id/namai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textSize="15dp"/>
+    <EditText
+        android:id="@+id/alamati"
+        android:layout_below="@id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/kampus"
+        android:layout_below="@id/alamati"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kampus"
+        android:textSize="15dp"/>
+    <EditText
+        android:id="@+id/kampusi"
+        android:layout_below="@id/kampus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="15dp"/>
+
+
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:id="@+id/img1"
+        android:layout_below="@id/kampusi"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/laptop"/>
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/img2"
+        android:layout_below="@id/kampusi"
+        android:layout_toRightOf="@id/img1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/hp"/>
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/img3"
+        android:layout_below="@id/kampusi"
+        android:layout_toRightOf="@id/img2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pc"/>
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/buton"
+        android:layout_below="@id/img3"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="KEMBALI"
+        android:background="@color/torquoise1"/>
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/buton"
+        android:id="@+id/button2"
+        android:layout_below="@id/img3"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:background="@color/Brown"/>
+
+
+
+
+
+</RelativeLayout>
